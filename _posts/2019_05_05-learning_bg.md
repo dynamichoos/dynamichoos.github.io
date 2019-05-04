@@ -1,6 +1,6 @@
 ---
-title:  "[AI] AI 관련 기본 개념들"
-date: "2019-05-05 01:36:28 -0400
+title : "[AI] AI 관련 기본 개념들"
+date : 2019-05-05 01:36:28 -0400
 categories: AI
 ---
 
@@ -64,3 +64,5 @@ KL divergence(Kullbak-Leibler divergence)는 두 확률분포의 차이를 계�
 
 KL divergence와 유사하게 추정치와 참값을 비교하는 지표로 많이 사용되며,
 주로 onehot encoding을 적용한 classification의 loss function에서 주로 활용됩니다. 
+
+(상세내용 )
