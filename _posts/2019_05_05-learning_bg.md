@@ -42,3 +42,6 @@ categories: AI
 
 위에 정보이론에서의 정보의 빈도에 대한 부분을 확률로 변경하여 생각하면 바로 AI에서 사용하는 엔트로피의 개념이 됩니다.
 
+### Shannon Entropy
+
+I(x)\quad =\quad -logP(x)
