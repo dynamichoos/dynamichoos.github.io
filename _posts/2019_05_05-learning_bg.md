@@ -44,4 +44,23 @@ categories: AI
 
 ### Shannon Entropy
 
+발생가능한 사건이나 메세지의 확률분포에 음의 로그를 취한 수식입니다. 
+
+관련된 정보량 I(x)는 아래와 같습니다.
 I(x)\quad =\quad -logP(x)
+샤넌 엔트로피에 대한 수식은 아래와 같습니다.
+H(P)\quad =\quad H(x)\quad =\quad -\sum { P(x)logP(x) } 
+
+사건의 확률 분포가 균등적(Uniform)할 수록 엔트로피는 높아집니다. (eg> 공평한 주사위, 공평한 동전)
+(위에 사막 날씨를 생각해보면 될 것 같습니다.)
+공평한 동전을 던지는 경우 확률은 1/2, 샤넌 엔트로피는 1입니다.
+
+### KL divergence
+
+KL divergence(Kullbak-Leibler divergence)는 두 확률분포의 차이를 계산하는 데 사용하는 함수입니다.
+추정치와 참값을 비교하는 지표로 사용합니다.
+
+### Cross Entropy
+
+KL divergence와 유사하게 추정치와 참값을 비교하는 지표로 많이 사용되며,
+주로 onehot encoding을 적용한 classification의 loss function에서 주로 활용됩니다. 
